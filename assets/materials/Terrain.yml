@@ -1,0 +1,8 @@
+maps: 1
+  mainTex: Terrain
+
+values: 4
+  opacity: 1
+  intensity: 1
+  bumpiness: 1
+  specularity: 0.1

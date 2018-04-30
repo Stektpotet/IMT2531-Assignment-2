@@ -1,0 +1,56 @@
+cameras: 1
+
+camera: maincam
+  position: 0 0 -20
+  rotation: 0 0 0
+  velocity: 0 0 0
+  angleVelocity: 0 0 0
+  mode: freelook
+  fov: 90
+  aspectRatio: 1.25
+  nearClip: 0.1
+  farClip: 500
+
+entities: 2
+
+
+entity: skybox
+  model: skybox
+  position: 0 0 0
+  rotation: 0 0 0
+  scale: 3 3 3
+  velocity: 0 0 0
+  angleVelocity: 0 0 0
+
+
+entity: Suzanne
+  model: Halvor
+  position: 0 -10 0
+  rotation: -90 0 0
+  scale: 4 4 4
+  velocity: 0 0 0
+  angleVelocity: 0 0 0
+
+
+relations: 0
+
+childCube: 0
+parentCube: 1
+  childCube
+
+Suzanne: 1
+  parentCube
+
+
+
+pointlights: 0
+pointlight: red
+  position: 0 0 0
+  falloff: 1.0 0.3 0.06
+  intensities: 1 1 1
+
+
+directionalLights: 1
+directionalLight: sun
+  rotation: 0 0 0
+  intensities: 1 1 1
